@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016/12/19, 20:32:24
+    Author     : g031n112
+*/
+body {
+    text-align: center;
+    max-width:50em;
+    margin-right:auto;
+    margin-left:auto;
+    padding:1em;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url("../images/back.png");
+}
+
+h1 {
+    margin-top: 0px;
+    text-align: left;
+}
+
+svg {
+    width:500px;
+}
+path {
+    /*fill:#333;*/
+}
+
+
+#sumPoint {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#fortune {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 35px;
+}
+
+#gSPosition {
+    position: absolute;
+    text-align: center;
+
+}
+
+#myGraphName {
+    font-size: 25px;
+    text-align: left;
+}
+
+#myChartName {
+    font-size: 25px;
+    text-align: center;
+}
+
+#myGraph {
+    text-align: left;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.gameStart {
+
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #fff;
+    display:table-cell;
+    vertical-align: middle;
+    cursor:pointer;
+    border:0;
+    width: 150px;
+    height: 40px;
+
+    border-bottom: 4px solid #CCC;
+    border-right: 4px solid #CCC;
+
+    border-radius: 10px;
+}
+
+.gameStart:hover {
+    border-bottom: none;
+    border-right: none;
+    background-color: #ccc;
+}

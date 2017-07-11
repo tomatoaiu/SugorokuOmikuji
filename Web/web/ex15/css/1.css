@@ -1,0 +1,120 @@
+body {
+    background-image: url("../images/back.png");
+}
+
+#container {
+    text-align: center;
+
+    background-color: #efefef;
+    position: absolute;
+    margin: auto;
+
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    width: 500px;
+    height: 220px;
+    border: 1px solid #CCC;
+}
+
+input {
+    margin: 5px;
+}
+
+#sendButtonPosition {
+
+    position: absolute;
+
+    top: 140px;
+    bottom: 0px;
+    right: 0px;
+    left: 120px;
+}
+
+.sendButton {
+    margin-top: 20px;
+    background-color: #fff;
+    display:block;
+    cursor:pointer;
+    border:0;
+    width: 100px;
+    height: 40px;
+
+    border-bottom: 4px solid #CCC;
+    border-right: 4px solid #CCC;
+
+    border-radius: 10px;
+}
+.sendButton:hover {
+    border-bottom: none;
+    border-right: none;
+    background-color: #ccc;
+}
+
+
+#signupPosition {
+
+    position: absolute;
+
+    top: 140px;
+    bottom: 0px;
+    right: 0px;
+    left: 270px;
+}
+
+.signupButton {
+    margin-top: 20px;
+    background-color: #fff;
+    display:block;
+    cursor:pointer;
+    border:0;
+    width: 100px;
+    height: 40px;
+
+    border-bottom: 4px solid #CCC;
+    border-right: 4px solid #CCC;
+
+    border-radius: 10px;
+}
+
+.signupButton:hover {
+    border-bottom: none;
+    border-right: none;
+    background-color: #ccc;
+}
+
+
+
+#signPosition {
+
+    position: absolute;
+
+    top: 140px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;
+}
+
+
+.signButton {
+    margin-top: 20px;
+    background-color: #fff;
+    display:block;
+    cursor:pointer;
+    border:0;
+    width: 100px;
+    height: 40px;
+
+    border-bottom: 4px solid #CCC;
+    border-right: 4px solid #CCC;
+
+    border-radius: 10px;
+}
+
+.signButton:hover {
+    border-bottom: none;
+    border-right: none;
+    background-color: #ccc;
+}
